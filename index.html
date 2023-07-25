@@ -13,7 +13,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
 
-
     <!-- BoxIcons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -45,32 +44,81 @@
     
     <!-- Header -->
     <header>
-        <div class="hero min-h-screen">
-            <div class="hero-content flex-col lg:flex-row-reverse gap-0 lg:gap-10">
+      <div class="hero flex justify-center items-center">
+        <div class="hero-content flex-col lg:flex-row-reverse gap-0 lg:gap-10">
+          <div class="w-full">
+            <img src="./images/banner.png" class="w-full"/>
+            <div class="flex items-center justify-center py-5 gap-4 rounded-xl bg-white shadow-2xl w-[200px] lg:w-[260px] relative bottom-20 left-8 lg:bottom-32 lg:left-44">
+              <i class='bx bxs-star text-3xl text-[#FFC850]'></i>
               <div>
-                <img src="./images/banner.png" class="max-w-screen-md rounded-lg relative" />
-                <div class="flex items-center justify-around w-[200px] py-7 bg-white rounded-lg shadow-2xl absolute bottom-96 md:-bottom-28 lg:bottom-52">
-                    <i class='bx bxs-star text-4xl text-[#ffc850]'></i>
-                    <div>
-                        <h1 class="text-3xl font-extrabold">5.00</h1>
-                        <p class="text-sm text-text-description">Trust Pilot Ratings</p>
-                    </div>
-                </div>
-              </div>
-              <div>
-                <h1 class="text-7xl font-extrabold leading-normal">It's good<br>tea time at The<br>Tea House</h1>
-                <p class="py-8 text-text-description">Tea and Botanical Solutions Supplier Give Optimum<br>Satisfaction To Your Taste Buds.</p>
-                <button class="btn btn-primary bg-gradiant-btn bg-gradient-to-r from-[#ff8938] to-[#f00] text-white outline-0 border-transparent">
-                    Explore More
-                    <i class='bx bx-chevron-right text-2xl'></i>
-                </button>
+                <h1 class="text-3xl font-extrabold">5.00</h1>
+                <p class="text-text-description">Trust Pilot Ratings</p>
               </div>
             </div>
           </div>
+          <div>
+            <h1 class="text-6xl lg:text-7xl font-extrabold leading-snug lg:leading-normal">It's good <br> tea time at  <br> Tea House</h1>
+            <p class="py-8">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class="btn btn-primary text-white outline-none border-none bg-gradient-to-r from-[#FF8938] to-[#f00]">
+              Explore More
+              <i class='bx bx-chevron-right text-2xl'></i>
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Main -->
-    
+    <main class="container mx-auto mt-20 px-5 lg:px-0">
+
+      <!-- Featured product -->
+      <section class="w-full mx-auto mb-32">
+        <div>
+          <div class="text-center w-full lg:w-[902px] mx-auto mb-14">
+            <h1 class="text-3xl lg:text-5xl font-extrabold mb-5">Our Featured Products</h1>
+            <p class="text-sm lg:text-base text-text-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div class="card bg-gradient-to-t from-[#ffffff] to-[#ececec]">
+              <figure class="pt-10">
+                <img src="./images/tea-1.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl font-extrabold">Milk Tea</h2>
+                <p class="text-text-description w-[208px]">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+            <div class="card bg-gradient-to-t from-[#ffffff] to-[#ececec]">
+              <figure class="pt-10">
+                <img src="./images/tea-2.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl font-extrabold">Black Tea</h2>
+                <p class="text-text-description w-[208px]">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+            <div class="card bg-gradient-to-t from-[#ffffff] to-[#ececec]">
+              <figure class="pt-10">
+                <img src="./images/tea-3.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl font-extrabold">Lemon Tea</h2>
+                <p class="text-text-description w-[208px]">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+            <div class="card bg-gradient-to-t from-[#ffffff] to-[#ececec]">
+              <figure class="pt-10">
+                <img src="./images/tea-4.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl font-extrabold">Green Tea</h2>
+                <p class="text-text-description w-[208px]">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
 </body>
 </html>
