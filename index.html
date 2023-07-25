@@ -26,7 +26,8 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-                'text-description': '#777'
+                'text-description': '#777',
+                'comment': '#5d5a6f'
               }
             }
           }
@@ -69,10 +70,10 @@
     </header>
 
     <!-- Main -->
-    <main class="container mx-auto mt-20 px-5 lg:px-0">
+    <main class="container mx-auto mt-20">
 
       <!-- Featured product -->
-      <section class="w-full mx-auto mb-32">
+      <section class="w-full mx-auto mb-32 px-5 lg:px-0">
         <div>
           <div class="text-center w-full lg:w-[902px] mx-auto mb-14">
             <h1 class="text-3xl lg:text-5xl font-extrabold mb-5">Our Featured Products</h1>
@@ -120,8 +121,8 @@
       </section>
 
       <!-- Tea predented -->
-      <section class="flex flex-col lg:flex-row gap-10 lg:gap-24">
-        <div class="grid grid-cols-2 gap-8 flex-1">
+      <section class="flex flex-col lg:flex-row gap-10 lg:gap-24 mb-32 px-5 lg:px-0">
+        <div class="grid grid-cols-2 gap-4 lg:gap-8 flex-1">
           <div class="h-36 rounded-lg bg-gradient-to-r from-[#ff883846] to-[#ff883818]"></div>
           <div class="flex justify-center items-center row-span-2 px-8 py-12 bg-[#e6a6231a] rounded-lg"><img src="./images/fresh-1.png" /></div>
           <div class="flex justify-center items-center row-span-2 px-12 py-10 rounded-lg bg-[#5776391a]"><img src="./images/fresh-2.png" /></div>
@@ -141,6 +142,57 @@
               <h2 class="text-xl font-bold">Premium Quality</h2>
               <p class="text-text-description leading-7">Premium Quality that makes tea more elegant and more durable when you use it.</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="flex flex-col lg:flex-row justify-between items-center rounded-xl gap-20 lg:gap-64 px-5 lg:px-32 py-24 bg-gradient-to-r from-[#FF8938] to-[#f00]">
+          <div class="w-full lg:flex-1">
+            <h1 class="text-3xl lg:text-5xl font-light text-white leading-normal">Meet Our Super <br> Clients</h1>
+            <p class="text-white py-6 w-full lg:w-[440px] leading-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            <button class="btn-primary bg-white text-black px-10 py-5 rounded-lg">Show All</button>
+          </div>
+          <div class="w-[90%] lg:flex-1 relative">
+              <div class="w-[80%] mx-auto mb-10 opacity-40">
+                <div class="bg-white w-full lg:w-96 rounded-lg p-10 relative">
+                  <p class="text-sm lg:text-base text-comment leading-5 lg:leading-7 font-light mb-4 lg:mb-8">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                  <h3 class="text-base font-bold mb-3">Ilham Yuda</h3>
+                  <div class="flex justify-between items-center">
+                    <p class="text-comment">Businessman</p>
+                    <img src="./images/circles.png" alt="">
+                  </div>
+                </div>
+                <div class="rounded-full absolute left-0 -top-8 lg:-top-8 lg:left-5">
+                  <img src="./images/client.png" alt="" class="border-4 rounded-full">
+                </div>
+              </div>
+              <div class="absolute bottom-[25%] lg:-left-32 z-10">
+                <div class="bg-white w-full lg:w-96 rounded-lg p-10 relative">
+                  <p class="text-base text-comment leading-5 lg:leading-7 font-light mb-8">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                  <h3 class="text-base font-bold mb-3">Ilham Yuda</h3>
+                  <div class="flex justify-between items-center">
+                    <p class="text-comment">Businessman</p>
+                    <img src="./images/circles.png" alt="">
+                  </div>
+                </div>
+                <div class="rounded-full absolute -top-5 -left-7 lg:-top-7 lg:-left-7">
+                  <img src="./images/client.png" alt="" class="border-4 rounded-full">
+                </div>
+              </div>
+              <div class="w-[80%] mx-auto opacity-40">
+                <div class="bg-white w-full lg:w-96 rounded-lg p-10 relative">
+                  <p class="text-sm lg:text-base text-comment leading-5 lg:leading-7 font-light mb-4 lg:mb-8">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                  <h3 class="text-base font-bold mb-3">Ilham Yuda</h3>
+                  <div class="flex justify-between items-center">
+                    <p class="text-comment">Businessman</p>
+                    <img src="./images/circles.png" alt="">
+                  </div>
+                </div>
+                <div class="rounded-full absolute left-0 -top-8 lg:-top-8 lg:left-5">
+                  <img src="./images/client.png" alt="" class="border-4 rounded-full">
+                </div>
+              </div>
           </div>
         </div>
       </section>
